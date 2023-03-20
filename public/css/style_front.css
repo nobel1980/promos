@@ -1,0 +1,90 @@
+@import url(../fonts/kalpurush/stylesheet.css);
+@import url(../fonts/icons/flaticon.css);
+/*@import url(../fonts/NikoshBAN/stylessheet.css);*/
+
+*{
+    padding:0;
+    margin:0;
+    font-family: kalpurushregular;
+}
+
+
+html{
+	background-image:url(../image/body_bg.gif);
+}
+body{
+	background-color:rgba(0,0,0,0);
+}
+
+.body-container{
+	width:1050px;
+	margin:0px auto 0 auto;
+	border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+	background-color:#ffffff;
+	padding-top:100px;
+}
+
+.navbar-inverse{
+	background-color:#683091;
+	color: #ffffff;
+	height:70px;
+}
+
+.navbar-inverse .navbar-brand{
+	color:#ffffff;
+}
+
+.navbar-header > a {
+    color: #ffffff;
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+}
+
+.navbar-header > a:hover {
+text-decoration: none;
+}
+#govstatus {
+    padding-left: 15px;
+}
+.navbar-header {
+    line-height: 70px;
+}
+
+.container {
+    width: 1050px;
+}
+
+.col-md-8.site-intro {
+    padding: 70px;
+}
+
+.col-md-4 {
+    padding: 30px;
+	text-align:center;
+}
+.checkbox {
+    margin-left: 20px;
+    text-align: left;
+}
+#signinform {
+    border: 1px solid #d8d8d8;
+	padding:10px 0 40px 0;
+}
+.btn-primary{
+	background-color:#683091;
+}
+.site-intro h3{
+	color:#683091;
+}
+footer {
+    background-color: #8bc643;
+    color: #fff;/*#683091;*/
+    height: 70px;
+    line-height: 70px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
+	background-color:#8bc643;
+}

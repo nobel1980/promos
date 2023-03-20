@@ -1,0 +1,98 @@
+@import url(../fonts/icons/flaticon.css);
+
+@import url(../fonts/kalpurush/stylesheet.css);
+/*@import url(../fonts/NikoshBAN/stylessheet.css);*/
+
+*{
+    padding:0;
+    margin:0;
+    font-family: kalpurushregular;
+}
+
+div.remember {
+	margin-top: 7px;
+	color: #969696;
+}
+
+div.remember label {
+	padding-top: 15px;
+}
+
+div.forgot {
+	margin-top: 7px;
+	color: #dadada;
+}
+
+footer {
+    background: url("../img/feature-gradient.png") no-repeat scroll center 100% white;
+    color: #B7B7B7;
+    font-size: 12px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+table.signup td {
+	padding: 10px;
+}
+
+table.signup .alert {
+	margin-bottom: 0;
+    margin-top: 3px;
+}
+
+table.perms select {
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+table.perms label {
+	margin-right: 10px;
+}
+
+
+/*====================================================*/
+/*================Edinting start======================*/
+/*====================================================*/
+.nikosh_font
+{
+    font-family: NikoshBAN !important;
+}
+
+div.main-container {
+	/*min-height: 450px;*/
+    min-height: 500px;
+}
+
+.navbar-inner {
+    background-color: #683091 !important;
+    background-image: linear-gradient(to bottom, #783091, #683091) !important;
+    background-repeat: repeat-x;
+    border: 1px solid #783091 !important;
+    border-radius: 0px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067) !important;
+    min-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: #8BC643 !important;
+}
+
+.navbar .nav > li > a:hover{
+    background-color: #8BC643 !important;
+}
+
+.highlight_div
+{
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    padding: 9px 14px;
+}
